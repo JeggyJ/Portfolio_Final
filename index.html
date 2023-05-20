@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Homepage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="loader">
+        <div class="horizon-container">
+          <div class="horizon"></div>
+          <div class="sun"></div>
+        </div>
+      </div>          
+    <div class="page_fade">
+    <header>
+        <div class="Contact_Navbar">
+            <div class="Contact_Contents"> 
+                <a href="mailto:joelson.paleracio@gmail.com?subject=Let's%20Collab!&body=Hey%20Joelson!%0D%0A%0D%0A%5BWrite%20whatever%20floats%20your%20boat%2C%20always%20down%20for%20a%20coffee%20if%20you're%20in%20Melbourne%5D%0D%0A%0D%0A%5BRegards%2C%0D%0A%0D%0ASuper%20cool%20future%20partner%5D%0D%0A">
+                    <img src="Images/Contact_Mail_Nav.gif" class="centered-gif" alt="Contact Mail" />
+                </a>
+                <button class="Contact_Click close-btn">&times;</button>
+            </div>
+        </div>
+        <nav class="navbar">
+            <a href="index.html" class="navbar-logo">
+                <img src="Images/Logo Transparent.png" alt="Logo">
+            </a>
+            <ul class="navbar-links">
+                <li><a href="about.html">ABOUT</a></li>
+                <li class="portfolio-link"><a href="#portfolio">PORTFOLIO</a>
+                    <ul class="portfolio-dropdown">
+                        <li><a href="pm_app.html">PM SUPER APP</a></li>
+                        <li><a href="coffee_app.html">FILTER COFFEE APP</a></li>
+                 <!--   <li><a href="#travel-app">TRAVEL APP</a></li> -->
+                        <li><a href="clean_energy.html">CLEAN ENERGY WEBSITE</a></li>  
+                    </ul>
+                </li>
+                <li><a class="Contact_Click" href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="content-wrapper">
+            <div class="text-content">
+                <h1>Bridging the Gap Between Design and Functionality</h1>
+            </div>
+            <div class="image-content">
+                <img src="Images/Hero Page GIF.gif" alt="Connecting the dots GIF" class="hero-gif">
+            </div>
+        </section>
+        <section class="home-hero-container">
+            <div class="home-hero-image">
+                <a href="pm_app.html">
+                    <div class="parallax-container">
+                        <div class="parallax" style="background-image: url('Images/Clean_Energy_1.png');" alt="Image of A green sustainable city"></div>
+                        <button class="view-project">View Project</button>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="featured-project">
+                <ul>
+                    <li>FEATURED PROJECT</li>
+                    <li>CLEAN ENERGY REGULATOR</li>
+                    <li>RESEARCH, PROTOTYPING, INTERACTION DESGIN</li>
+                </ul>
+            </div>
+        </section>
+        <section class="work-section">
+            <div class="work-heading-container">
+                <h2 class="work-heading">Work</h2>
+            </div>
+            <div class="work-image-container">
+                <div class="image-wrapper">
+                    <div class="workcard">
+                        <a href="pm_app.html"><img class="card-image" src="Images/Home_PM_Card.png" alt="PM Card"></a>
+                        <div class="card-text">
+                            PM-APP, 2022<br>
+                            Developer & UI Designer
+                        </div>
+                    </div>
+                    <div class="workcard">
+                        <a href="coffee_app.html"><img class="card-image" src="Images/Home_Coffee_Card.png" alt="Coffee Card"></a>
+                        <div class="card-text">
+                            POUR-OVER, 2022<br>
+                            Solo App Developer & Designer
+                        </div>
+                    </div>
+                    <div class="workcard">
+                        <img class="card-image" src="Images/Home_SOAR_Card.png" alt="SOAR Card">
+                        <div class="card-text">
+                            *PAGE IN PROGRESS*, 2023<br>
+                            SOAR
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact-section">
+            <div class="contact-background">
+                <div class="contact-container">
+                    <h2 class="scramble-text"></h2>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <img src="Images/Logo Transparent.png" alt="Logo">
+                </div>
+                <div class="footer-links">
+                    <a href="about.html">ABOUT</a>
+                <!--    <a class="Contact_Click_Footer" href="#contact">CONTACT</a> -->
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/joelson-paleracio-141129245/" class="social-link">LinkedIn</a>
+                    <a href="https://github.com/JeggyJ" class="social-link">GitHub</a>
+                    <a href="https://www.joelson.app/" class="social-link">2022 Portfolio</a>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2023 Joelson Paleracio. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+        <div class="Contact_Navbar_Footer"></div>
+    </main>
+    <div class="custom-cursor"></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    </div>
+</body>
+</html>

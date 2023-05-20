@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PM App Case Study</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="loader">
+        <div class="horizon-container">
+          <div class="horizon"></div>
+          <div class="sun"></div>
+        </div>
+      </div>          
+    <div class="page_fade">
+    <header>
+        <div class="Contact_Navbar">
+            <div class="Contact_Contents"> 
+                <a href="mailto:joelson.paleracio@gmail.com?subject=Let's%20Collab!&body=Hey%20Joelson!%0D%0A%0D%0A%5BWrite%20whatever%20floats%20your%20boat%2C%20always%20down%20for%20a%20coffee%20if%20you're%20in%20Melbourne%5D%0D%0A%0D%0A%5BRegards%2C%0D%0A%0D%0ASuper%20cool%20future%20partner%5D%0D%0A">
+                    <img src="Images/Contact_Mail_Nav.gif" class="centered-gif" alt="Contact Mail" />
+                </a>
+                <button class="Contact_Click close-btn">&times;</button>
+            </div>
+        </div>
+        <nav class="navbar">
+            <a href="index.html" class="navbar-logo">
+                <img src="Images/Logo Transparent.png" alt="Logo">
+            </a>
+            <ul class="navbar-links">
+                <li><a href="about.html">ABOUT</a></li>
+                <li class="portfolio-link"><a href="#portfolio">PORTFOLIO</a>
+                    <ul class="portfolio-dropdown">
+                        <li><a href="pm_app.html">PM SUPER APP</a></li>
+                        <li><a href="coffee_app.html">FILTER COFFEE APP</a></li>
+                      <!--   <li><a href="#travel-app">TRAVEL APP</a></li>-->
+                        <li><a href="clean_energy.html">CLEAN ENERGY WEBSITE</a></li> 
+                    </ul>
+                </li>
+                <li><a class="Contact_Click" href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="home-hero-container">
+            <h1 class="PM_Header">PM SUPER APP</h1>
+            <p id="PM_Header_Text">Streamlining Workflows and Empowering Project Managers</p>
+            <div class="image-container">
+                <img class="PM_Span" src="Images/Home_Hero_Image.jpg">
+            </div>
+        </section>
+        <section class="PM_Grid">
+            <div class="PM_Caption fade-in fade-right">
+                <p>Project managers often found themselves sifting through multiple platforms to access information, input data, and locate form templates. The onboarding process for new project managers was a challenge, as resources were scattered across various platforms. </p>
+            </div>
+        </section>
+            <div class="PM_IMG_1 fade-in fade-left">
+                <img id="Mobile_Fix_2" src="Images/PM_IMG_1_Left.png">
+                <div class="overlay">
+                    <img id="Mobile_Fix_2" src="Images/PM_IMG_1_Mid.png">
+                    <div class="overlay-text">
+                      <p>This inspired the creation of a unified, one-stop solution to streamline project management.</p>
+                    </div>
+                </div>
+                <img id="Mobile_Fix_2" class= " Mobile_Fix_1" src="Images/PM_IMG_1_Right.png">
+            </div>
+        <section class="PM_Grid">
+            <div class="PM_Center_Text fade-in fade-down"><strong>Goals and Objectives</strong> <br> The aim was to build an app that served as a comprehensive hub for project managers. It would house a project-specific checklist to guide PMs from start to finish, automating processes such as email communication with contractors and report generation, all based on the data stored in the database.</div>
+        </section>
+        <section>
+            <div class="PM_IMG_1">
+                <img src="Images/PM_TargetAudience.png">
+                    <div class="PM_Card fade-in fade-left">
+                        <p><strong>Target Audience</p></strong>
+                        <p>The app targeted project managers, both experienced and newcomers, to facilitate seamless project execution.</p>
+                    </div>
+            </div>
+            <div class="PM_IMG_1">
+                    <div class="PM_Card fade-in fade-right">
+                        <p><strong>Role and Responsibilities</p></strong>
+                        <p>As a developer and UI designer, I played a key role in the app's creation. I also led communications and training during the app's release. Our team collaborated closely with PMs, PMOs, and state leads to ensure the app met user needs.</p>
+                    </div>
+                <img src="Images/PM_Role.png">
+            </div>
+            <div class="PM_IMG_1 PM_Process fade-in fade-down">
+                <p><strong>Process and Methodology</p></strong>
+                <p>We engaged with project managers to understand the intricacies of the project management processes.</p>
+            </div>
+            <div class="PM_IMG_1 fade-in fade-down">
+                <img class="Mobile_Image" src="Images/PM_Process_1.png">
+            </div>
+            <div class="PM_IMG_1">
+                <div class="image-container-2">
+                    <img class="background-image" src="Images/PM_Process_2.png">
+                    <img class="overlay-image" src="Images/PM_Process_2.1.png">
+                </div>
+                <div class="PM_Card fade-in fade-right">
+                    <p>Although I wasn't involved in the research phase, I contributed to the ideation stage, determining the priority features with our stakeholders.</p>
+                </div>
+            </div>
+            <div class="PM_IMG_1">
+                    <div class="PM_Card fade-in fade-left">
+                        <p>Our small development team used PowerApps, Power Automate, and other tools to build the app. After testing with our Victorian team and resolving numerous bugs, we released the app.</p>
+                    </div>
+                    <div class="image-container-2">
+                        <img class="background-image" src="Images/PM_Process_3.png">
+                        <img class="overlay-image-2" src="Images/PM_Process_3.1.png">
+                    </div>
+            </div>
+            <section class="PM_Grid">
+                <div class="PM_Center_Text_2 fade-in fade-down">
+                    <p><strong>Design Decisions and Challenges</strong></p>
+                    <p>The main challenge was automating report generation due to data integration issues and the complexity of gathering relevant data with our current systems. We also faced several bugs and struggled to optimize performance on a low-code platform. Our team efficiently managed the influx of feature requests and planned the app's future iterations.</p>
+                </div>
+            </section>
+            <div class="PM_IMG_1 fade-in fade-left">
+                <img class="Mobile_Image" src="Images/PM_Process_4.png">
+            </div>
+            </section>
+            <section class="PM_Grid">
+                <div class="PM_Center_Text_2 fade-in fade-down">
+                    <p><strong>Results and Impact</strong></p>
+                    <p>The app led to significant time savings in project management, reduced schedule delays, and minimized errors by providing PMs with all necessary data. It also streamlined the onboarding process for new staff. The app's automation features eliminated manual report generation, freeing up valuable time for PMs to focus on their core responsibilities.</p>
+                </div>
+            </section>
+            <div class="PM_IMG_1 fade-in fade-right">
+                <img class="Mobile_Image" src="Images/PM_Process_5.png">
+            </div>
+            </section>
+            <section class="work-section">
+                <div class="work-heading-container">
+                    <h2 class="work-heading">Other Work</h2>
+                </div>
+                <div class="work-image-container">
+                    <div class="image-wrapper">
+                        <div class="workcard">
+                            <a href="clean_energy.html"><img class="card-image" src="Images/Home_CER_Card.png" alt="CER Card"></a>
+                            <div class="card-text">
+                                CLEAN ENERGY REGULATOR, 2023<br>
+                                UX & UI Designer
+                            </div>
+                        </div> 
+                        <div class="workcard">
+                            <a href="coffee_app.html"><img class="card-image" src="Images/Home_Coffee_Card.png" alt="Coffee Card"></a>
+                            <div class="card-text">
+                                POUR-OVER, 2022<br>
+                                Solo App Developer & Designer
+                            </div>
+                        </div>
+                        <div class="workcard">
+                            <img class="card-image" src="Images/Home_SOAR_Card.png" alt="SOAR Card">
+                            <div class="card-text">
+                                *PAGE IN PROGRESS*, 2023<br>
+                                SOAR
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <section class="contact-section">
+            <div class="contact-background">
+                <div class="contact-container">
+                    <h2 class="scramble-text"></h2>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-logo" href="index.html" >
+                    <img src="Images/Logo Transparent.png" alt="Logo">
+                </div>
+                <div class="footer-links">
+                    <a href="about.html">ABOUT</a>
+                <!--    <a href="#contact">CONTACT</a> -->
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/joelson-paleracio-141129245/" class="social-link">LinkedIn</a>
+                    <a href="https://github.com/JeggyJ" class="social-link">GitHub</a>
+                    <a href="https://www.joelson.app/" class="social-link">2022 Portfolio</a>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2023 Joelson Paleracio. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+        <div class="custom-cursor"></div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="script.js"></script>
+    </main>
+    </div>
+</body>
+</html>
+    
